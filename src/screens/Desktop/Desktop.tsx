@@ -7,6 +7,7 @@ import { LaunchpadListSection } from "./sections/LaunchpadListSection";
 import { NavigationSection } from "./sections/NavigationSection";
 import { SecurityTrustSection } from "./sections/SecurityTrustSection/SecurityTrustSection";
 import { TokenUtilitySection } from "./sections/TokenUtilitySection";
+import frame from '/public/frame.svg'; 
 
 export const Desktop = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -108,7 +109,7 @@ export const Desktop = (): JSX.Element => {
                   <img
                     className="relative w-[37px] h-[42px] object-cover max-[680px]:w-[27px] max-[680px]:h-[32px]"
                     alt="Frame"
-                    src="/frame.svg"
+                    src={frame} 
                   />
                   <div className="relative w-fit [font-family:'SeoulHangang_CEB-Regular',Helvetica] font-normal text-white text-[32px] tracking-[0] leading-[normal] whitespace-nowrap max-[680px]:text-[24px]">
                     Launchhood
