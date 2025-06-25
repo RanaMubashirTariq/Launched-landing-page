@@ -49,7 +49,7 @@ export const CallToActionSection = (): JSX.Element => {
             </div>
 
             <div className="relative w-[180.65px] h-[180.65px] max-[680px]:w-[100px] max-[680px]:h-[100px]">
-                <img src="/public/circle.svg" className="w-full h-full" alt="" />
+                <img src="/circle.svg" className="w-full h-full" alt="" />
             </div>
           </div>
         </CardContent>
@@ -75,7 +75,7 @@ export const CallToActionSection = (): JSX.Element => {
                   <img
                     className="w-[30px] h-[30px] max-[680px]:w-[20px] max-[680px]:h-[20px]"
                     alt="Check icon"
-                    src="/public/fi-4315445.svg"
+                    src="/fi-4315445.svg"
                   />
                   <span className="font-['Poppins',Helvetica] font-medium text-white text-xl max-[680px]:text-sm">
                     {feature}

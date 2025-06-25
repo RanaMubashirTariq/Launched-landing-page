@@ -33,7 +33,7 @@ export const FooterSection = (): JSX.Element => {
         <img
           className="absolute w-[325px] h-[325px] top-0 left-0 object-cover max-[480px]:w-[200px] max-[480px]:h-[200px] max-[480px]:top-[50px] max-[480px]:left-[50px]"
           alt="Futuristic crypto illustration"
-          src="/public/freepik--create-a-new-version-of-the-3d-futuristic-crypto-v--357.png"
+          src="/freepik--create-a-new-version-of-the-3d-futuristic-crypto-v--357.png"
         />
       </div>
     </Card>

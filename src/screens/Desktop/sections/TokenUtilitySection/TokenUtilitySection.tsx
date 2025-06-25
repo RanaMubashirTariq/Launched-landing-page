@@ -5,7 +5,7 @@ export const TokenUtilitySection = (): JSX.Element => {
   // Define card data for mapping
   const utilityCards = [
     {
-      icon: "/public/group-5.svg",
+      icon: "/group-5.svg",
       iconWidth: "w-[48.4px]",
       iconHeight: "h-[48.4px]",
       iconMargin: "mt-[-7.20px]",
@@ -14,7 +14,7 @@ export const TokenUtilitySection = (): JSX.Element => {
       alt: "Group",
     },
     {
-      icon: "/public/vector-1.svg",
+      icon: "/vector-1.svg",
       iconWidth: "w-[73.2px]",
       iconHeight: "h-[73.2px]",
       iconMargin: "mt-[-19.60px]",
@@ -23,7 +23,7 @@ export const TokenUtilitySection = (): JSX.Element => {
       alt: "Vector",
     },
     {
-      icon: "/public/vector.svg",
+      icon: "/vector.svg",
       iconWidth: "w-[55.2px]",
       iconHeight: "h-[55.2px]",
       iconMargin: "mt-[-10.60px]",
@@ -32,7 +32,7 @@ export const TokenUtilitySection = (): JSX.Element => {
       alt: "Vector",
     },
     {
-      icon: "/public/-x30-6.svg",
+      icon: "/-x30-6.svg",
       iconWidth: "w-[34px]",
       iconHeight: "h-[34px]",
       iconMargin: "",

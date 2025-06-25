@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import { Button } from "../../components/ui/button";
 import { CallToActionSection } from "./sections/CallToActionSection";
@@ -6,8 +7,7 @@ import { HeroSection } from "./sections/HeroSection";
 import { LaunchpadListSection } from "./sections/LaunchpadListSection";
 import { NavigationSection } from "./sections/NavigationSection";
 import { SecurityTrustSection } from "./sections/SecurityTrustSection/SecurityTrustSection";
-import { TokenUtilitySection } from "./sections/TokenUtilitySection";
-import frame from '/public/frame.svg'; 
+import { TokenUtilitySection } from "./sections/TokenUtilitySection"; 
 
 export const Desktop = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -109,14 +109,13 @@ export const Desktop = (): JSX.Element => {
                   <img
                     className="relative w-[37px] h-[42px] object-cover max-[680px]:w-[27px] max-[680px]:h-[32px]"
                     alt="Frame"
-                    src={frame} 
+                    src="/frame.svg" 
                   />
                   <div className="relative w-fit [font-family:'SeoulHangang_CEB-Regular',Helvetica] font-normal text-white text-[32px] tracking-[0] leading-[normal] whitespace-nowrap max-[680px]:text-[24px]">
                     Launchhood
                   </div>
                 </div>
-
-                {/* Navigation Links - Hidden on mobile */}
+{/* Navigation Links - Hidden on mobile */}
                 <div className="flex items-center gap-12 max-[1100px]:gap-6 max-[1000px]:hidden">
                   {navItems.map((item, index) => (
                     <a
@@ -198,7 +197,7 @@ export const Desktop = (): JSX.Element => {
               <div className="absolute w-[402px] h-[402px] top-[257px] left-[899px] bg-[#a097ffcc] rounded-[201px] blur-[88.6px] max-[1300px]:w-[302px] max-[1300px]:h-[302px] max-[1100px]:top-[250px] max-[1100px]:hidden max-[1000px]:left-[50%] max-[680px]:w-[102px] max-[680px]:h-[102px]" />
               <img  className="absolute max-w-[659px] max-h-[659px] top-[100px] left-[750px] object-cover z-10 max-[1300px]:max-w-[559px] max-[1300px]:max-h-[559px] max-[1100px]:top-[50px] max-[1100px]:left-[500px] max-[1000px]:hidden rotate-[221deg]"
                 alt="Freepik background"
-                src="/public/freepik--background--35766-1.png"
+                src="/freepik--background--35766-1.png"
               />
             </div>
 
@@ -232,7 +231,7 @@ export const Desktop = (): JSX.Element => {
           <img
             className="absolute w-[445px] h-[1166px] top-[-348px] left-[358px]"
             alt="Group"
-            src="/public/group-5-1.svg"
+            src="/group-5-1.svg"
           />
         </div>
 
@@ -267,7 +266,7 @@ export const Desktop = (): JSX.Element => {
           <img
             className="w-full h-[3px] object-cover"
             alt="Line"
-            src="/public/line-2.svg"
+            src="/line-2.svg"
           />
           <div className="flex w-full items-end justify-center px-[349px] pt-4 pb-[32px]   max-[1300px]:px-[100px] max-[1100px]:px-[50px] max-[680px]:px-[25px] max-[680px]:py-[20px]">
             <div className="relative [font-family:'Poppins',Helvetica] font-normal text-white text-lg tracking-[0] leading-[27px] whitespace-nowrap max-[480px]:text-[12px] ">
