@@ -4,8 +4,6 @@ import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { Progress } from "../../../../components/ui/progress";
 import { Separator } from "../../../../components/ui/separator";
-import frame from "../../../../../public/frame-16.svg"
-import bell from "../../../../../public/bell-icon.svg"
 export const SecurityTrustSection = (): JSX.Element => {
   // Card data for mapping
   const launchpadCards = [
@@ -131,8 +129,8 @@ const LaunchpadCard = ({ groupImageSuffix }: { groupImageSuffix: string }) => {
 
             <div className="flex items-center gap-3 max-[680px]:gap-1">
               <div className="flex items-end gap-[11px] max-[680px]:gap-1">
-                <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src={frame} />
-                <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src={bell} />
+                <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src="/frame-16.svg" />
+                <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src="/bell-icon.svg" />
 
               </div>
 
