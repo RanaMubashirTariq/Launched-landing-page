@@ -9,13 +9,10 @@ import { NavigationSection } from "./sections/NavigationSection";
 import { SecurityTrustSection } from "./sections/SecurityTrustSection/SecurityTrustSection";
 import { TokenUtilitySection } from "./sections/TokenUtilitySection"; 
 import './DesktopStars.css';
-import frame from "../../../public/frame.svg"
-import freepik from "../../../public/freepik--background--35766-1.png"
-import group from "../../../public/group-5-1.svg" 
-import line from "../../../public/line-2.svg"
-import star1 from "../../../public/star.svg"
-import dot from "../../../public/dot.svg"
-import dot1 from "../../../public/dot-1.svg"  
+import frame from "../../../dist/assets/frame.svg"
+import freepik from "../../../dist/assets/freepik--background--35766-1.png"
+import group from "../../../dist/assets/group-5-1.svg"  
+import line from "../../../dist/assets/line-2.svg" 
 export const Desktop = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -32,15 +29,15 @@ export const Desktop = (): JSX.Element => {
   const stars = [
     {
       className: "star-1",
-      src: star1,
+      src: "/star.svg",
     },
     {
       className: "star-2",
-      src: star1,
+      src: "/star.svg",
     },
     {
       className: "star-3",
-      src: star1,
+      src: "/star.svg",
     },
   ];
 
@@ -278,7 +275,7 @@ export const Desktop = (): JSX.Element => {
           <img
             className="w-full h-[3px] object-cover"
             alt="Line"
-                    src={line}
+                  src={line}
           />
           <div className="flex w-full items-end justify-center px-[349px] pt-4 pb-[32px]   max-[1300px]:px-[100px] max-[1100px]:px-[50px] max-[680px]:px-[25px] max-[680px]:py-[20px]">
             <div className="relative [font-family:'Poppins',Helvetica] font-normal text-white text-lg tracking-[0] leading-[27px] whitespace-nowrap max-[480px]:text-[12px] ">
