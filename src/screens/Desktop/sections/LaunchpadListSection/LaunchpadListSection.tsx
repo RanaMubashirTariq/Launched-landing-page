@@ -1,13 +1,17 @@
 import React from "react";
-
+import svg from "../../../../../public/svg-4.svg"
+import svg1 from "../../../../../public/svg-1.svg"
+import svg2 from "../../../../../public/svg.svg"
+import svg3 from "../../../../../public/svg-2.svg"
+import svg4 from "../../../../../public/svg-3.svg"
 export const LaunchpadListSection = (): JSX.Element => {
   // Social media icons data
   const socialIcons = [
-    { url: "/public/svg-4.svg" },
-    { url: "/public/svg-1.svg" },
-    { url: "/public/svg.svg" },
-    { url: "/public/svg-2.svg" },
-    { url: "/public/svg-3.svg" },
+    { url: svg },
+    { url: svg1 },
+    { url: svg2 },
+    { url: svg3 },
+    { url: svg4 },
   ];
 
   // Footer links data

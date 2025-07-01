@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { Input } from "../../../../components/ui/input";
-
+import freepik1 from "../../../../../public/freepik--create-a-new-version-of-the-3d-futuristic-crypto-v--357.png"
 export const FooterSection = (): JSX.Element => {
   return (
     <Card className="flex items-center gap-20 p-14 bg-[#a097ff26] rounded-[30px] border border-solid border-[#544bbf80] mx-[180px] my-[100px] max-[1300px]:mx-[100px] max-[1100px]:mx-[50px] max-[680px]:mx-[25px] max-[680px]:my-[32px] max-[1000px]:my-[50px] max-[1100px]:gap-10 max-[1100px]:p-8 max-[1000px]:flex-col-reverse max-[1000px]:items-center max-[480px]:p-4 max-[480px]:gap-4">
@@ -33,7 +33,7 @@ export const FooterSection = (): JSX.Element => {
         <img
           className="absolute w-[325px] h-[325px] top-0 left-0 object-cover max-[480px]:w-[200px] max-[480px]:h-[200px] max-[480px]:top-[50px] max-[480px]:left-[50px]"
           alt="Futuristic crypto illustration"
-          src="/freepik--create-a-new-version-of-the-3d-futuristic-crypto-v--357.png"
+          src={freepik1}
         />
       </div>
     </Card>

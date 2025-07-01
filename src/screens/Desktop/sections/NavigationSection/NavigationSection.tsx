@@ -2,53 +2,59 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { ScrollArea, ScrollBar } from "../../../../components/ui/scroll-area";
-
+import toad from "../../../../../public/original-png.png"
+import valu from "../../../../../public/1745749714165-48d158fb4b73914242f6a1c11361930b-jpeg.jpg"
+import cow from "../../../../../public/1734711458548-9a933310e5c76125764f5d9ff136521c-png.png"
+import koma from "../../../../../public/1728231454398-f00432283d18f075f373bbdc425ec972-png.png"
+import baby from "../../../../../public/1728995202100-867bfa0729040fbfaa700da0e73b4f3f-png.png"
+import reploy from "../../../../../public/1729786687597-fe8569ba511de57b1cd4f7925a74de81-png.png"
+import eai from "../../../../../public/1716209527383-cf565b97cdd0b00b3f1b72f6283b2f20-png-1.png"
 // Token data for mapping
 const tokens = [
   {
     name: "Toad",
     symbol: "$TOAD",
-    mainImage: "/original-png.png",
+    mainImage: toad,
     chainImage: "/solana.png",
   },
   {
     name: "Valu",
     symbol: "LIFE",
-    mainImage: "/1745749714165-48d158fb4b73914242f6a1c11361930b-jpeg.jpg",
+    mainImage: valu,
     chainImage: "/solana.png",
   },
   {
     name: "CowCoin",
     symbol: "COW",
-    mainImage: "/1734711458548-9a933310e5c76125764f5d9ff136521c-png.png",
+    mainImage: cow,
     chainImage: "/ic-bsc-a3213bd0-svg.svg",
     isSvgChain: true,
   },
   {
     name: "KOMA Inu",
     symbol: "KOMA",
-    mainImage: "/1728231454398-f00432283d18f075f373bbdc425ec972-png.png",
+    mainImage: koma,
     chainImage: "/ic-bsc-a3213bd0-svg.svg",
     isSvgChain: true,
   },
   {
     name: "Baby Neiro",
     symbol: "Baby",
-    mainImage: "/1728995202100-867bfa0729040fbfaa700da0e73b4f3f-png.png",
+    mainImage: baby,
     chainImage: "/ic-bsc-a3213bd0-svg.svg",
     isSvgChain: true,
   },
   {
     name: "Reploy",
     symbol: "RAI",
-    mainImage: "/1729786687597-fe8569ba511de57b1cd4f7925a74de81-png.png",
+    mainImage: reploy,
     chainImage: "/ic-bsc-a3213bd0-svg.svg",
     isSvgChain: true,
   },
   {
     name: "Eagle AI",
     symbol: "EAI",
-    mainImage: "/1716209527383-cf565b97cdd0b00b3f1b72f6283b2f20-png-1.png",
+    mainImage: eai,
     chainImage: "/base-mainnet-1.png",
   },
   {
@@ -60,13 +66,13 @@ const tokens = [
   {
     name: "Eagle AI",
     symbol: "EAI",
-    mainImage: "/1716209527383-cf565b97cdd0b00b3f1b72f6283b2f20-png-1.png",
+    mainImage: eai,
     chainImage: "/base-mainnet-1.png",
   },
   {
     name: "Eagle AI",
     symbol: "EAI",
-    mainImage: "/1716209527383-cf565b97cdd0b00b3f1b72f6283b2f20-png-1.png",
+    mainImage: eai,
     chainImage: "/base-mainnet-1.png",
   },
 ];
