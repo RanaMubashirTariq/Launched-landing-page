@@ -1,11 +1,15 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
+import group5 from "../../../../../public/group-5.svg"
+import vector1 from "../../../../../public/vector-1.svg"
+import vector from "../../../../../public/vector.svg"
+import vector2 from "../../../../../public/-x30-6.svg"
 
 export const TokenUtilitySection = (): JSX.Element => {
   // Define card data for mapping
   const utilityCards = [
     {
-      icon: '/group-5.svg',
+      icon: group5,
       iconWidth: "w-[48.4px]",
       iconHeight: "h-[48.4px]",
       iconMargin: "mt-[-7.20px]",
@@ -14,7 +18,7 @@ export const TokenUtilitySection = (): JSX.Element => {
       alt: "Group",
     },
     {
-      icon: '/vector-1.svg',
+      icon: vector1,
       iconWidth: "w-[73.2px]",
       iconHeight: "h-[73.2px]",
       iconMargin: "mt-[-19.60px]",
@@ -23,7 +27,7 @@ export const TokenUtilitySection = (): JSX.Element => {
       alt: "Vector",
     },
     {
-      icon: '/vector.svg',
+      icon: vector,
       iconWidth: "w-[55.2px]",
       iconHeight: "h-[55.2px]",
       iconMargin: "mt-[-10.60px]",
@@ -32,7 +36,7 @@ export const TokenUtilitySection = (): JSX.Element => {
       alt: "Vector",
     },
     {
-      icon: '/-x30-6.svg',
+      icon: vector2,
       iconWidth: "w-[34px]",
       iconHeight: "h-[34px]",
       iconMargin: "",

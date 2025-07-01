@@ -5,6 +5,10 @@ import {
   CardHeader,
   CardTitle,
 } from "../../../../components/ui/card";
+import line from "../../../../../public/line-2.svg"
+import line1 from "../../../../../public/line-2.svg"
+import check from "../../../../../public/fi-4325445.svg"
+import check1 from "../../../../../public/fi-4315445.svg"
 export const CallToActionSection = (): JSX.Element => {
   // Data for Token Utility card
   const tokenUtilityFeatures = [
@@ -27,7 +31,7 @@ export const CallToActionSection = (): JSX.Element => {
           <img
             className="w-full h-[3px] object-cover mt-3"
             alt="Line"
-            src="/line-2.svg"
+            src={line}
           />
         </CardHeader>
         <CardContent className="px-[37px] py-4">
@@ -38,7 +42,7 @@ export const CallToActionSection = (): JSX.Element => {
                   <img
                     className="w-[30px] h-[30px] max-[680px]:w-[20px] max-[680px]:h-[20px]"
                     alt="Check icon"
-                    src="/fi-4325445.svg"
+                    src={check}
                   />
                   <span className="font-['Poppins',Helvetica] font-medium text-white text-xl max-[680px]:text-sm">
                     {feature}
@@ -63,7 +67,7 @@ export const CallToActionSection = (): JSX.Element => {
           <img
             className="w-[343px] h-px object-cover mt-3 max-[680px]:w-[200px]"
             alt="Line"
-            src="/line-2.svg"
+            src={line1}
           />
         </CardHeader>
         <CardContent className="px-[37px] py-4 max-[680px]:px-[20px]">
@@ -74,7 +78,7 @@ export const CallToActionSection = (): JSX.Element => {
                   <img
                     className="w-[30px] h-[30px] max-[680px]:w-[20px] max-[680px]:h-[20px]"
                     alt="Check icon"
-                    src="/fi-4315445.svg"
+                    src={check1}
                   />
                   <span className="font-['Poppins',Helvetica] font-medium text-white text-xl max-[680px]:text-sm">
                     {feature}
